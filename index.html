@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EdLearn - Smart Educational Software</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/64d58efce2.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="main">
+        <nav>
+            <div class="logo">EdLearn</div>
+            <input type="checkbox" id="nav-toggle" class="nav-toggle">
+            <label for="nav-toggle" class="nav-toggle-label">
+                <span></span>
+            </label>
+            <ul class="nav-links">
+                <li><a href="index.html"><i class="fas fa-home"></i> Home</a></li>
+                <li><a href="about.html"><i class="fas fa-info-circle"></i> About</a></li>
+                <li><a href="about.html"><i class="fas fa-cogs"></i> Services</a></li>
+                <li><a href="#contact"><i class="fas fa-envelope"></i> Contact</a></li>
+            </ul>
+        </nav>
+
+        <div class="hero">
+            <h1 class="animate-on-load">Welcome to EdLearn</h1>
+            <p class="animate-on-load">Revolutionize Your Learning Experience</p>
+            <p class="animate-on-load">Smart software to streamline your educational journey</p>
+            <div class="hero-buttons">
+                <button class="btn btn-primary animate-on-load" id="sign-in-btn">Sign In</button>
+                <button class="btn btn-secondary animate-on-load" id="sign-up-btn">Sign Up</button>
+            </div>
+        </div>
+    </div>
+
+
+    <section id="features" class="features">
+        <h2>Key Features</h2>
+        <div class="feature-grid">
+            <div class="feature-item">
+                <img src="img1.jpeg" alt="Automated Attendance">
+                <h3>Automated Attendance</h3>
+                <p>Facial recognition for effortless check-ins</p>
+            </div>
+            <div class="feature-item">
+                <img src="img2.jpeg" alt="Interactive Learning">
+                <h3>Interactive Learning</h3>
+                <p>Engaging quizzes and multimedia content</p>
+            </div>
+            <div class="feature-item progress-tracking">
+                <img src="img3.jpeg" alt="Progress Tracking">
+                <h3>Progress Tracking</h3>
+                <p>Real-time analytics and performance insights</p>
+            </div>
+            <div class="feature-item">
+                <img src="img4.jpeg" alt="Automated Attendance">
+                <h3>Interactive Learning Tools</h3>
+                <p>Make learning easy for students with quizzes, tips & tricks, and many more.</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="name">
+            EdLearn
+        </div>
+        <div class="footer">
+            <div class="footer-item">
+                <a href="index.html">Home</a>
+                <a href="#faq">Search</a>
+                <a href="about.html">Services</a>
+            </div>
+            <div class="footer-item">
+                <a href="#">Attendance</a>
+                <a href="#resources">Resources</a>
+            </div>
+            <div class="footer-item">
+                <a href="#contact">Contact Us</a>
+                <a href="about.html">About Us</a>
+            </div>
+        </div>
+    </footer>
+
+    <div class="auth-panel right-panel" id="new-here-panel">
+        <div class="content">
+            <h3>New here?</h3>
+            <p>Join EdLearn and start your learning journey today!</p>
+            <button class="btn btn-secondary" id="show-sign-up-btn">Sign Up</button>
+        </div>
+        <span class="close-btn" id="close-new-here">&times;</span>
+    </div>
+    <div class="auth-overlay" id="signin-overlay">
+        <div class="auth-container">
+            <span class="close-btn">&times;</span>
+            <div class="forms-container">
+                <form class="sign-in-form">
+                    <h2 class="title">Sign In</h2>
+                    <div class="input-field">
+                        <i class="fas fa-user"></i>
+                        <input type="text" placeholder="Username" />
+                    </div>
+                    <div class="input-field">
+                        <i class="fas fa-lock"></i>
+                        <input type="password" placeholder="Password" />
+                    </div>
+                    <input type="submit" value="Login" class="btn btn-primary" />
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <div class="auth-overlay" id="signup-overlay">
+        <div class="auth-container">
+            <span class="close-btn">&times;</span>
+            <div class="forms-container">
+                <form class="sign-up-form">
+                    <h2 class="title">Sign Up</h2>
+                    <div class="input-field">
+                        <i class="fas fa-user"></i>
+                        <input type="text" placeholder="Username" />
+                    </div>
+                    <div class="input-field">
+                        <i class="fas fa-envelope"></i>
+                        <input type="email" placeholder="Email" />
+                    </div>
+                    <div class="input-field">
+                        <i class="fas fa-lock"></i>
+                        <input type="password" placeholder="Password" />
+                    </div>
+                    <input type="submit" value="Sign Up" class="btn btn-primary" />
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
